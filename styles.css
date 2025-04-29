@@ -1,34 +1,30 @@
 /*  your css code here. If applicable */
 body {
     font-family: Arial, sans-serif;
-    color: white; /* Text color to make it readable */
-    position: relative; /* For positioning the image */
-}
-
-.background-image {
-    width: 100%; /* Full width */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute; /* Positioning the image */
-    top: 0; /* Align to top */
-    left: 0; /* Align to left */
-    z-index: -1; /* Behind other elements */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
 
 h1 {
-    position: relative; /* To ensure it appears above the image */
+    color: #333;
     text-align: center;
-    margin-top: 20px; /* Space from the top */
 }
 
-ul {
-    list-style-type: none; /* No bullet points */
+#band {
+    list-style-type: none; /* Remove default bullet points */
     padding: 0;
-    text-align: center; /* Center the list */
 }
 
-li {
-    padding: 8px;
-    background: rgba(244, 244, 244, 0.8); /* Slightly transparent background */
-    margin: 5px 0;
+#band li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+#band li:hover {
+    background: #e2e2e2; /* Change background on hover */
 }

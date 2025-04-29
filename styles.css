@@ -1,15 +1,29 @@
 /*  your css code here. If applicable */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the image */
     color: white; /* Text color to make it readable */
+    position: relative; /* For positioning the image */
+}
+
+.background-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Positioning the image */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    z-index: -1; /* Behind other elements */
+}
+
+h1 {
+    position: relative; /* To ensure it appears above the image */
+    text-align: center;
+    margin-top: 20px; /* Space from the top */
 }
 
 ul {
     list-style-type: none; /* No bullet points */
     padding: 0;
+    text-align: center; /* Center the list */
 }
 
 li {

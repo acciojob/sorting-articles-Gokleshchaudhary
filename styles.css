@@ -1,7 +1,10 @@
 /*  your css code here. If applicable */
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
+    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    color: white; /* Text color to make it readable */
 }
 
 ul {
@@ -11,7 +14,7 @@ ul {
 
 li {
     padding: 8px;
-    background: #f4f4f4;
+    background: rgba(244, 244, 244, 0.8); /* Slightly transparent background */
     margin: 5px 0;
     border-radius: 5px;
 }

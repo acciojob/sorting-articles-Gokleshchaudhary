@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none; /* No bullet points */
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    background: #f4f4f4;
+    margin: 5px 0;
+    border-radius: 5px;
+}

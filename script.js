@@ -4,7 +4,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
 function sortBands(bands) {
     return bands.sort((a, b) => {
         const normalize = (str) => str.replace(/^(a |an |the )/i, '').trim().toLowerCase();
-        return normalize(a) > normalize(b) ? 1 : -1;
+        return normalize(a).localeCompare(normalize(b));
     });
 }
 
